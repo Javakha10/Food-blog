@@ -1,0 +1,331 @@
+@import url(./style.css);
+@import url(./variables.css);
+
+@media screen and (max-width: 1400px) {
+  .padding {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  h1 {
+    font-size: 45px;
+    text-align: start;
+  }
+
+  p {
+    font-size: 10px;
+    text-align: start;
+  }
+
+  .delivery-container input {
+    width: 360px;
+  }
+
+  .btn-1 {
+    right: 12px;
+    top: 8px;
+  }
+
+  .btn-2 {
+    right: 18px;
+    top: 13px;
+  }
+
+  .discover-btn-1 {
+    right: 10px;
+    top: 8px;
+  }
+
+  .discover-btn-2 {
+    right: 16px;
+    top: 13px;
+  }
+  footer hr {
+    width: 1199px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  header {
+    position: relative;
+    display: flex;
+  }
+
+  header nav.mobile {
+    position: absolute;
+    display: flex;
+    top: 100%;
+    background-color: white;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    left: 0;
+  }
+  header nav.mobile a {
+    padding: 15px 0;
+    color: var(--font-color);
+    border-bottom: 1px solid var(--font-color-2);
+  }
+  .mobile-menu {
+    display: flex;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  header .btn-contact {
+    display: none;
+  }
+  .delivery-girl-img img {
+    width: 400px;
+  }
+  .cook-advantages-img img {
+    width: 400px;
+  }
+
+  .single-articles img {
+    width: 300px;
+  }
+  .single-articles p {
+    font-size: 15px;
+  }
+
+  .menu-btn {
+    left: 45%;
+    top: 50px;
+  }
+
+  .footer-1 p {
+    font-size: 15px;
+  }
+
+  .footer-1 td {
+    font-size: 15px;
+  }
+  .footer-1 td:hover {
+    font-size: 15px;
+  }
+  footer hr {
+    width: 991px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .delivery-girl-img img {
+    display: none;
+  }
+  .dish-btn {
+    width: 120px;
+    font-size: 10px;
+    padding: 15px 11px;
+  }
+  .dish-btn:hover {
+    width: 120px;
+    font-size: 10px;
+    padding: 15px 11px;
+  }
+  .price {
+    border-radius: 50px;
+    border: solid 1px var(--icon-color);
+    /* padding: 50px 80px; */
+    width: 250px;
+    height: 300px;
+    padding-top: 50px;
+  }
+
+  .price img {
+    width: 150px;
+    padding-left: 50px;
+  }
+
+  .price h2 {
+    font-size: 15px;
+  }
+
+  .cook-advantages-img {
+    display: none;
+  }
+  .app-img img {
+    width: 400px;
+  }
+
+  .feedback-1 {
+    display: none;
+  }
+
+  .article-3 {
+    display: none;
+  }
+  .footer-1-logo {
+    display: none;
+  }
+
+  footer hr {
+    width: 767px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dish-display {
+    display: none;
+  }
+
+  .steps img {
+    width: 100px;
+  }
+
+  .app-img img {
+    display: none;
+  }
+
+  footer hr {
+    width: 575px;
+  }
+
+  .footer-2 p {
+    font-size: 15px;
+  }
+
+  .advantages-list p {
+    font-size: 15px;
+  }
+  .advantages-list th {
+    font-size: 15px;
+  }
+  .application p {
+    font-size: 15px;
+  }
+  .feedback p {
+    font-size: 15px;
+  }
+  .articles p {
+    font-size: 15px;
+    text-align: start;
+  }
+  .articles h1 {
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .dishes-container h1 {
+    text-align: start;
+  }
+  .discover input {
+    width: 260px;
+  }
+  .btn-1 {
+    right: 95px;
+    top: 8px;
+  }
+
+  .btn-2 {
+    right: 103px;
+    top: 13px;
+  }
+
+  .steps h2 {
+    font-size: 15px;
+  }
+
+  .steps-number {
+    left: 20px;
+  }
+
+  .dish-display-576 {
+    display: none;
+  }
+
+  .footer-2 p {
+    font-size: 10px;
+  }
+
+  footer hr {
+    width: 389px;
+  }
+
+  .order-container h1 {
+    text-align: start;
+  }
+  .order-container p {
+    text-align: start;
+  }
+  .menu h1 {
+    text-align: start;
+  }
+  .menu p {
+    text-align: start;
+  }
+}
+@media screen and (max-width: 390px) {
+  header img {
+    width: 150px;
+  }
+  .btn-1 {
+    right: 70px;
+    top: 9px;
+  }
+
+  .btn-2 {
+    right: 74px;
+    top: 14px;
+  }
+
+  .discover-btn-1 {
+    right: 8px;
+    top: 8px;
+  }
+
+  .discover-btn-2 {
+    right: 16px;
+    top: 13px;
+  }
+
+  .dish-display-390 {
+    display: none;
+  }
+
+  .steps img {
+    display: none;
+  }
+  .steps h2 {
+    font-size: 10px;
+  }
+
+  .steps-number {
+    left: 3px;
+  }
+
+  .menu-dishes {
+    padding-left: 55px;
+  }
+
+  .app-number {
+    padding: 17px 5px;
+  }
+
+  .application-text h2 {
+    font-size: 15px;
+    padding-top: 10px;
+  }
+
+  .menu-btn {
+    left: 35%;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .footer-2 {
+    display: block;
+    align-items: center;
+    padding-left: 20px;
+  }
+  .footer-2 p {
+    padding-left: 15px;
+  }
+
+  .icons-padd-resp {
+    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-left: 75px;
+  }
+}
