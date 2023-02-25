@@ -309,6 +309,9 @@
   .menu-btn {
     left: 35%;
   }
+  .menu-btn-2 {
+    top: 0px;
+  }
 
   hr {
     display: none;
